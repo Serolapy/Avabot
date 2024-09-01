@@ -1,0 +1,22 @@
+{
+  "name": "SHSK_avabot",
+  "version": "1.0.0",
+  "description": "ВК-бот для создания аватарок на Школу студенческих кураторов 2024",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./tests/runServer.js"
+  },
+  "author": "Serolapy",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jimp": "^0.22.12",
+    "node-fetch": "^3.3.2",
+    "node-vk-bot-api": "^3.5.0"
+  },
+  "devDependencies": {
+    "fs": "^0.0.1-security"
+  },
+  "type": "module"
+}
